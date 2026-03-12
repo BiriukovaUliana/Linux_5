@@ -2,15 +2,20 @@
 
 #Завдання
 Реалізувати сценарій use-after-free, який проявляється лише після кількох успішних повторних алокацій того ж розміру.
+
 ##Створення папки проекту: 
 mkdir lab5
 cd lab5
+
 ##Створення файлу програми:
 nano uaf.c
+
 ##Компіляція програми:
 gcc uaf.c -o uaf
+
 ##Запуск програми:
 ./uaf
+
 ##Результат роботи програми:
 <img width="717" height="333" alt="image" src="https://github.com/user-attachments/assets/037b6bdc-bce7-4677-923a-e4eb4ac0339b" />
 ##Перевірка через AddressSanitizer:
