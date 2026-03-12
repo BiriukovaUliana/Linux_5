@@ -29,6 +29,10 @@ gcc uaf.c -o uaf
 
 gcc -fsanitize=address uaf.c -o uaf
 
+Цей параметр підключає інструмент AddressSanitizer, який знаходить помилки пам’яті.
+
+Коли програма використала звільнену пам'ять, sanitizer зупинив програму і показав діагностику.
+
 <img width="820" height="467" alt="image" src="https://github.com/user-attachments/assets/c696132e-a82f-45a1-be9d-f0fd67d9afb3" />
 
 <img width="818" height="512" alt="image" src="https://github.com/user-attachments/assets/4f6713c2-2b62-46aa-961c-dec68f491356" />
